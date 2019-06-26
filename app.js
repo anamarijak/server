@@ -5,6 +5,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan'),
     bodyParser = require('body-parser'),
     mongoose = require('mongoose'),
+    expressValidator = require('express-validator'),
     cors = require('cors');
 
 var indexRouter = require('./routes/index');
@@ -31,7 +32,21 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-
+app.use(expressValidator({
+    errorFormatter: function(param, msg, value) {
+        let namespace = param.split('.'),
+            root = namespace.shift(),
+            formParam = root;
+        while (namespace.length) {
+            formParam += '[' + namespace.shift() + ']';
+        }
+        return {
+            param: formParam,
+            msg: msg,
+            value: value
+        };
+    }
+}));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
