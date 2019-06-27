@@ -6,13 +6,12 @@ const chat = require('./chatHandler');
 
 
 module.exports = (io) => {
-    io.on("connection", socket => {
-        console.log("a user connected :D");
-        socket.on("chat message", msg => {
-            console.log(msg);
-            io.emit("chat message", msg);
+    io.on('connection', (socket) => {
+        console.log('Socket connected');
+        socket.on('new_message', (data) => chat.newMessage(data,socket));
+        socket.on('disconnect', (event) => {
+            console.log('Disconnected',event);
         });
-        socket.on('new_message', (data) => chat.newMessage(data, socket));
     });
 }
 

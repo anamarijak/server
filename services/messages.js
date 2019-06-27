@@ -1,7 +1,7 @@
 const Message = require('../models/messages');
 
 module.exports = {
-    newMessage: async({message, room}, socket) => {
+    newMessage: async({message}, socket) => {
         console.log(message);
         try{
             let newMessage = await new Message({
