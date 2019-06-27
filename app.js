@@ -8,7 +8,7 @@ const createError = require('http-errors'),
     passport = require('passport'),
     indexRouter = require('./routes/index'),
     userRouter = require('./routes/user'),
-    messageRouter = require('./routes/message');
+    messageRouter = require('./routes/messages');
 
 
 // Connect to database

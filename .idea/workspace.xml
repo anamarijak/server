@@ -2,109 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43e8e94c-28ee-42c2-a0eb-158abb180409" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/.github/lock.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express-validator/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/check/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express-validator/check/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/check/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express-validator/check/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/declarations/validator.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/docs/api-check.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express-validator/docs/api-check.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/docs/api-filter.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express-validator/docs/api-filter.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/docs/api-matched-data.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/docs/api-sanitization-chain.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express-validator/docs/api-sanitization-chain.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/docs/api-validation-chain.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express-validator/docs/api-validation-chain.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/docs/api-validation-result.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express-validator/docs/api-validation-result.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/docs/feature-custom-validators-sanitizers.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express-validator/docs/feature-custom-validators-sanitizers.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/docs/feature-error-messages.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express-validator/docs/feature-error-messages.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/docs/feature-running-imperatively.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/docs/feature-sanitization.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express-validator/docs/feature-sanitization.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/docs/feature-schema-validation.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express-validator/docs/feature-schema-validation.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/docs/feature-whole-body-validation.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express-validator/docs/feature-whole-body-validation.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/docs/feature-wildcards.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express-validator/docs/feature-wildcards.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express-validator/docs/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/filter/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express-validator/filter/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/filter/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express-validator/filter/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express-validator/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/base.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/base.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/chain/context-handler-impl.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/chain/context-handler-impl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/chain/context-handler.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/chain/context-handler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/chain/context-runner-impl.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/chain/context-runner-impl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/chain/context-runner.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/chain/context-runner.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/chain/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/chain/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/chain/sanitization-chain.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/chain/sanitization-chain.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/chain/sanitizers-impl.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/chain/sanitizers-impl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/chain/sanitizers.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/chain/sanitizers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/chain/validation-chain.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/chain/validation-chain.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/chain/validators-impl.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/chain/validators-impl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/chain/validators.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/chain/validators.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/context-builder.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/context-builder.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/context-items/context-item.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/context-items/context-item.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/context-items/custom-validation.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/context-items/custom-validation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/context-items/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/context-items/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/context-items/sanitization.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/context-items/sanitization.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/context-items/standard-validation.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/context-items/standard-validation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/context.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/context.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/matched-data.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/matched-data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/middlewares/check.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/middlewares/check.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/middlewares/one-of.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/middlewares/one-of.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/middlewares/sanitization-chain-builders.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/middlewares/sanitization-chain-builders.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/middlewares/sanitize.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/middlewares/sanitize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/middlewares/schema.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/middlewares/schema.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/middlewares/validation-chain-builders.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/middlewares/validation-chain-builders.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/options.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/options.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/select-fields.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/select-fields.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/utils.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/validation-result.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/src/validation-result.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-validator/tst.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express-validator/tst.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/socket.io/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/socket.io/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/validator/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/validator/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/validator/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/validator/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/validator/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/validator/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/validator/lib/isBase32.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/validator/lib/isEmail.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/validator/lib/isEmail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/validator/lib/isMobilePhone.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/validator/lib/isMobilePhone.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/validator/lib/isPostalCode.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/validator/lib/isPostalCode.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/validator/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/validator/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/validator/validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/validator/validator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/validator/validator.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/validator/validator.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/chat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/chatHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/chatHandler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/messages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/messages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/message.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -120,7 +20,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/users.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="173">
               <caret line="14" column="12" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="12" />
             </state>
           </provider>
@@ -135,11 +35,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/chat.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/messages.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="10" column="76" lean-forward="true" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -162,18 +71,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="49" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="49" />
+            <state relative-caret-position="425">
+              <caret line="53" column="34" lean-forward="true" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/messages.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="30" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="30" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -213,17 +126,19 @@
         <option value="$PROJECT_DIR$/models/user.js" />
         <option value="$PROJECT_DIR$/routes/users.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/bin/www" />
         <option value="$PROJECT_DIR$/services/message.js" />
         <option value="$PROJECT_DIR$/services/messages.js" />
         <option value="$PROJECT_DIR$/services/chatHandler.js" />
         <option value="$PROJECT_DIR$/services/chat.js" />
+        <option value="$PROJECT_DIR$/routes/message.js" />
+        <option value="$PROJECT_DIR$/routes/messages.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="793" />
     <option name="width" value="814" />
     <option name="height" value="867" />
   </component>
@@ -323,18 +238,18 @@
       <option name="presentableId" value="Default" />
       <updated>1561585743796</updated>
       <workItem from="1561585754490" duration="5771000" />
-      <workItem from="1561626518570" duration="3194000" />
+      <workItem from="1561626518570" duration="4721000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8965000" />
+    <option name="totallyTimeSpent" value="10492000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="814" height="867" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12294043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -348,7 +263,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32833788" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3243607" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -365,41 +280,10 @@
     <entry file="file://$PROJECT_DIR$/utils/encrypt.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/messages.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
           <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/message.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
@@ -434,10 +318,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/models/messages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/message.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/services/chat.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/messages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="10" column="76" lean-forward="true" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="53" column="34" lean-forward="true" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
         </state>
       </provider>
     </entry>
