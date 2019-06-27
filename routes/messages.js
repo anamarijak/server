@@ -7,20 +7,15 @@ const sanitizeUser = require('../utils/sanitzeUser');
 
 
 
-router.post('/create', async (req, res, next) => {
-    const message = new Message( { content: req.body.content , from: req.user._id});
-    req.checkBody('content', 'Can\'t insert empty message').notEmpty().escape();
-    const errors = req.validationErrors();
-    if (errors) {
-        res.status(400).json(errors);
-    } else {
-        try {
-            const createdMessage = await message.save();
+router.get('/all', async (req, res, next) => {
 
-            res.json({msg: 'Success'});
-        } catch (err) {
-            res.status(500).json({msg: err.message || 'Internal error'});
-        }
+    try{
+        const messages = await Message.find().sort({createdAt: 'desc'})
+            .populate({path: 'user', select: '_id username'}) // populate our reference with user object
+        //send page to client
+        res.status(200).json({messages});
+    }catch (err){
+        res.json(err);
     }
 });
 
