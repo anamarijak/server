@@ -2,14 +2,17 @@ const express = require("express");
 const app = express();
 const server = require("http").createServer(app);
 const io = require("socket.io").listen(server);
-const port = 19000;
+const chat = require('./chatHandler');
 
-io.on("connection", socket => {
-    console.log("a user connected :D");
-    socket.on("chat message", msg => {
-        console.log(msg);
-        io.emit("chat message", msg);
+
+module.exports = (io) => {
+    io.on("connection", socket => {
+        console.log("a user connected :D");
+        socket.on("chat message", msg => {
+            console.log(msg);
+            io.emit("chat message", msg);
+        });
+        socket.on('new_message', (data) => chat.newMessage(data, socket));
     });
-});
+}
 
-server.listen(port, () => console.log("server running on port:" + port));
